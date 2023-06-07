@@ -2,7 +2,6 @@
 
 License
 
-Description
 This AI App, created with OpenAI's API, harnesses the power of OpenAI's cutting-edge technology to provide a wide range of capabilities. The app leverages OpenAI's models to perform various tasks such as:
 
 Q&A: Ask questions and receive accurate answers based on the provided context.
