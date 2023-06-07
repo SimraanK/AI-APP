@@ -7,18 +7,18 @@ Q&A: Ask questions and receive accurate answers based on the provided context.
 Code Generation: Generate code snippets or complete programs in multiple programming languages, including Python and JavaScript.
 Language Translation: Translate text from one language to another, supporting a wide range of languages.
 Recipe Generation: Generate recipes for various types of food, offering step-by-step instructions and ingredient lists.
-Storytelling: Create engaging and immersive horror stories, tapping into OpenAI's language generation capabilities.
+Storytelling: Create engaging and immersive horror stories, and many more, tapping into OpenAI's language generation capabilities.
 This app offers a user-friendly interface for easy interaction with OpenAI's API-powered features.
 
 **Key Features**
 Q&A: Get accurate answers to your questions based on provided context.
 Code Generation: Automatically generate code snippets or complete programs in different programming languages.
 Language Translation: Translate text from one language to another.
-Python to JavaScript Conversion: Convert Python code to JavaScript.
+One to other language Conversion: Convert any code to any programming language.
 Recipe Generation: Generate recipes for various types of food.
 Horror Storytelling: Create captivating horror stories.
-Installation
-Follow these steps to install and run the AI app:
+Like your own ChatGPT!
+
 
 **Clone this repository to your local machine.**
 git clone https://github.com/SimraanK/AI-APP
