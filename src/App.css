@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+
+    
+}
+
+
+
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+div.heading {
+  font-family: Poppins;
+  font-weight: 100;
+  font-size: 6rem;
+    background: linear-gradient(90deg,
+    #8c00ff 20%, #8f0043, #000000);
+
+  -webkit-background-clip: text;
+  color: transparent;
+  height: 5rem;
+  padding-top: 3rem;
+}
+
+p.heading-paragp {
+  font-family: Poppins;
+  font-weight: 800;
+  color: #808080;
+  margin-bottom: 45px;
+  font-size: large;
+
+}
+
+
+div.grid-main {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 40px;
+  margin-bottom: 4rem;
+}
+
+div.grid-child {
+
+  border-radius: 8px 8px 0px 8px;
+  width: 24rem;
+  cursor: pointer;
+  display: flex;
+  transition: transform .5s cubic-bezier(.19,1,.22,1);
+  margin-right: 35px;
+
+
+
+  
+
+}
+
+div.grid-child:hover {
+
+  transform: scale(1.06);
+  transition: transform .5s cubic-bezier(.19,1,.22,1);
+  will-change: transform;
+  display: flex;
+
+  
+}
+
+
+
+/* div.grid-child:hover {
+  box-shadow: rgb(31 31 31 / 12%) 0px 1px 6px, rgb(255, 255, 255) 0px 1px 4px;
+  border: none;
+
+} */
+
+div.name-and-descr {
+  text-align: left;
+  padding-left: 10px;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+
+
+}
+
+h3 {
+  font-family: Poppins;
+  font-weight: 800;
+  color: rgb(152, 76, 238);
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+
+div.option-paragp {
+  font-family: Poppins;
+  font-weight: 500;
+  margin-top: 2px;
+  margin-bottom: 0px;
+  font-size: 14px;
+  line-height: 20px;
+  overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+ 
+
+
+
+}
+
+
+
+
+div.main-itms {
+  display: block;
+}
+
+textarea.text-area {
+  font-size: 20px;
+  color: grey;
+  font-weight: 800;
+  padding: 7px 10px;
+  margin-bottom: 20px;
+  border-radius: 10px 25px 2px 0px;
+  font-family: Poppins;
+  width: 30rem;
+  background-color: transparent;
+
+}
+
+.text-area::-webkit-scrollbar {
+  display: none;
+}
+
+
+div.btns {
+  display: flex;;
+  transform: scale(1.1);
+  transition: transform .5s cubic-bezier(.19,1,.22,1);
+}
+
+
+button.action-btn {
+  display: block;
+  margin: auto;
+  width: 210px;
+  background: linear-gradient(270deg,
+  #797979 20%, #585858, #000000);  
+  color: black;
+  cursor: pointer;
+  font-family: Poppins;
+  transition: transform .3s ease-in-out;
+
+
+
+}
+
+
+button.action-btn:hover {
+  border-color: rgb(59, 59, 59);
+  cursor: pointer;
+  font-family: Poppins;
+  transition:.3s ease-in-out;
+  transform: scale(1.1);
+  will-change: transform;
+
+
+
+
+
+  
+  
+}
+
+button.reload-btn {
+  display: block;
+  margin: auto 22px auto 0px;
+  background: linear-gradient(90deg,
+  #797979 20%, #333333, #000000);  
+  color: black;
+  cursor: pointer;
+  font-family: Poppins;
+  transition:.3s ease-in-out;
+
+}
+
+
+button.reload-btn:hover {
+
+  border-color: rgb(59, 59, 59);
+  cursor: pointer;
+  font-family: Poppins;
+  transition:.3s ease-in-out;
+  transform: scale(1.1);
+  will-change: transform;
+
+
+
+
+}
+
+
+h3.result-text {
+  margin-top: 30px;
+  text-align: left;
+  width: 31rem;
+  line-height: 2rem;
+  background: linear-gradient(1deg,
+  #60008d 20%, #ff02c0, #747474);
+
+-webkit-background-clip: text;
+color: transparent;
+height: auto;
+}
+
+/*```````````````````````` SVGs Styling ````````````````````````````````````````````` */
+
+svg.qna {
+  background-color: #ef4146;
+  background-image: url(https://cdn.openai.com/API/images/icon_bg_red.svg);
+  background-size: cover;
+  border-radius: 7px;
+  color: #fff;
+    flex: 0 0 auto;
+    font-size: 28px;
+    line-height: 0px;
+    padding: 15px;
+
+}
+
+svg.grmr {
+  background-color: #19c37d;
+  background-image: url(https://cdn.openai.com/API/images/icon_bg_green.svg);
+  background-size: cover;
+  border-radius: 7px;
+  color: #fff;
+    flex: 0 0 auto;
+    font-size: 28px;
+    line-height: 0px;
+    padding: 15px;
+
+}
+
+svg.nts {
+  background-color: #5436da;
+  background-image: url(https://cdn.openai.com/API/images/icon_bg_blue.svg);
+  background-size: cover;
+  border-radius: 7px;
+  color: #fff;
+    flex: 0 0 auto;
+    font-size: 28px;
+    line-height: 0px;
+    padding: 15px;
+
+}
+svg.ssg {
+  background-color: #dd5ce5;
+  background-image: url(https://cdn.openai.com/API/images/icon_bg_magenta.svg);
+  background-size: cover;
+  border-radius: 7px;
+  color: #fff;
+    flex: 0 0 auto;
+    font-size: 28px;
+    line-height: 0px;
+    padding: 15px;
+
+}
+svg.etol {
+  background-color: #f4ac36;
+  background-image: url(https://cdn.openai.com/API/images/icon_bg_orange.svg);
+  background-size: cover;
+  border-radius: 7px;
+  color: #fff;
+    flex: 0 0 auto;
+    font-size: 28px;
+    line-height: 0px;
+    padding: 15px;
+
+}
+svg.frndchat {
+  background-color: #ef4146;
+  background-image: url(https://cdn.openai.com/API/images/icon_bg_red.svg);
+  background-size: cover;
+  border-radius: 7px;
+  color: #fff;
+    flex: 0 0 auto;
+    font-size: 28px;
+    line-height: 0px;
+    padding: 15px;
+
+}
+svg.movtemo {
+  background-color: #5436da;
+  background-image: url(https://cdn.openai.com/API/images/icon_bg_blue.svg);
+  background-size: cover;
+  border-radius: 7px;
+  color: #fff;
+    flex: 0 0 auto;
+    font-size: 28px;
+    line-height: 0px;
+    padding: 15px;
+
+}
+svg.excode {
+  background-color: #19c37d;
+  background-image: url(https://cdn.openai.com/API/images/icon_bg_green.svg);
+  background-size: cover;
+  border-radius: 7px;
+  color: #fff;
+    flex: 0 0 auto;
+    font-size: 28px;
+    line-height: 0px;
+    padding: 15px;
+
+}
+svg.jstpy {
+  background-color: #ef4146;
+  background-image: url(https://cdn.openai.com/API/images/icon_bg_red.svg);
+  background-size: cover;
+  border-radius: 7px;
+  border-radius: 7px;
+  color: #fff;
+    flex: 0 0 auto;
+    font-size: 28px;
+    line-height: 0px;
+    padding: 15px;
+
+}
+svg.mhrrsc {
+  background-color: #f4ac36;
+  background-image: url(https://cdn.openai.com/API/images/icon_bg_orange.svg);
+  background-size: cover;
+  border-radius: 7px;
+  color: #fff;
+    flex: 0 0 auto;
+    font-size: 28px;
+    line-height: 0px;
+    padding: 15px;
+
+}
+svg.scibkmk {
+  background-color: #19c37d;
+  background-image: url(https://cdn.openai.com/API/images/icon_bg_green.svg);
+  background-size: cover;
+  border-radius: 7px;
+  color: #fff;
+    flex: 0 0 auto;
+    font-size: 28px;
+    line-height: 0px;
+    padding: 15px;
+
+}
+svg.pybugf {
+  background-color: #dd5ce5;
+  background-image: url(https://cdn.openai.com/API/images/icon_bg_magenta.svg);
+  background-size: cover;
+  border-radius: 7px;
+  color: #fff;
+    flex: 0 0 auto;
+    font-size: 28px;
+    line-height: 0px;
+    padding: 15px;
+
+}
+svg.tweetclf {
+  background-color: #5436da;
+  background-image: url(https://cdn.openai.com/API/images/icon_bg_blue.svg);
+  background-size: cover;
+  border-radius: 7px;
+  color: #fff;
+    flex: 0 0 auto;
+    font-size: 28px;
+    line-height: 0px;
+    padding: 15px;
+
+}
+svg.mlaitutr {
+  background-color: #ef4146;
+  background-image: url(https://cdn.openai.com/API/images/icon_bg_red.svg);
+  background-size: cover;
+  border-radius: 7px;
+  color: #fff;
+    flex: 0 0 auto;
+    font-size: 28px;
+    line-height: 0px;
+    padding: 15px;
+
+}
+svg.intrvqn {
+  background-color: #ef4146;
+  background-image: url(https://cdn.openai.com/API/images/icon_bg_red.svg);
+  background-size: cover;
+  border-radius: 7px;
+  color: #fff;
+    flex: 0 0 auto;
+    font-size: 28px;
+    line-height: 0px;
+    padding: 15px;
+
+}
+svg.rcpicrtr {
+  background-color: #f4ac36;
+  background-image: url(https://cdn.openai.com/API/images/icon_bg_orange.svg);
+  background-size: cover;
+  border-radius: 7px;
+  color: #fff;
+    flex: 0 0 auto;
+    font-size: 28px;
+    line-height: 0px;
+    padding: 15px;
+
+}
+svg.sarcstchatbot {
+  background-color: #dd5ce5;
+  background-image: url(https://cdn.openai.com/API/images/icon_bg_magenta.svg);
+  background-size: cover;
+  border-radius: 7px;
+  color: #fff;
+    flex: 0 0 auto;
+    font-size: 28px;
+    line-height: 0px;
+    padding: 15px;
+
+}
+svg.crtstudynt {
+  background-color: #5436da;
+  background-image: url(https://cdn.openai.com/API/images/icon_bg_blue.svg);
+  background-size: cover;
+  border-radius: 7px;
+  color: #fff;
+    flex: 0 0 auto;
+    font-size: 28px;
+    line-height: 0px;
+    padding: 15px;
+
+}
+svg.jshlpchatbot {
+  background-color: #19c37d;
+  background-image: url(https://cdn.openai.com/API/images/icon_bg_green.svg);
+  background-size: cover;
+  border-radius: 7px;
+  color: #fff;
+    flex: 0 0 auto;
+    font-size: 28px;
+    line-height: 0px;
+    padding: 15px;
+
+}
+svg.transltprglang {
+  background-color: #ef4146;
+  background-image: url(https://cdn.openai.com/API/images/icon_bg_red.svg);
+  background-size: cover;
+  border-radius: 7px;
+  color: #fff;
+    flex: 0 0 auto;
+    font-size: 28px;
+    line-height: 0px;
+    padding: 15px;
+
+}
+
+
+
+
+@media screen and (max-width: 895px) {
+
+
+
+   
+  div.grid-main {
+    display: block;
+    
+
+  }
+
+  div.grid-child {
+    width: 20rem;
+    height: 100%;
+    margin: 30px 0px ;
+  }
+
+  textarea.text-area {
+    width: 20rem;
+  }
+
+  }
+
+
+
+
+
+
+
+
+
