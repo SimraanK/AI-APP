@@ -59,7 +59,7 @@ Recipe Generation:
 Input: "Generate a recipe for chocolate chip cookies."
 Output:
 markdown
-Copy code
+
 Ingredients:
 - 1 cup butter, softened
 - 1 cup granulated sugar
@@ -71,5 +71,7 @@ Ingredients:
 - 1/2 teaspoon salt
 - 2 cups chocolate chips
 
-Instructions:
-1. Preheat oven to 
+
+
+Contributing
+Contributions to this AI app are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull
