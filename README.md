@@ -105,6 +105,8 @@ __Contributing__
 
 Contributions to this AI app are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull
 
+Happy Coding🖤
+
 ![Screenshot (327)](https://github.com/SimraanK/AI-APP/assets/99394288/80efb05a-b2b8-4dcf-8287-6ac4205a2f11)
 ![Screenshot (328)](https://github.com/SimraanK/AI-APP/assets/99394288/72f913e1-7f81-421c-a9bb-4dee4848bd44)
 ![Screenshot (324)](https://github.com/SimraanK/AI-APP/assets/99394288/3e3ea397-0f93-4ad3-955e-651d3f0e4675)
