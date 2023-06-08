@@ -23,8 +23,9 @@ export default function Translation({ doStuff, setInput, result }) {
           Back
         </button>
       </div>
-
-      <h3 className="result-text">{result.length > 0 ? result : ""}</h3>
+      <div className="para">
+        <p className="result-text">{result.length > 0 ? result : ""}</p>
+      </div>
     </div>
     
   );
