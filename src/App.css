@@ -216,15 +216,20 @@ p.result-text {
   width: 40rem;
   font-size: 1.2rem;
   line-height: 2rem;
-  background: linear-gradient(1deg,
+  color: dimgrey;
+  font-weight: 600;
+  height: auto;
+
+
+    /* background: linear-gradient(1deg,
   #60008d 20%, #ff02c0, #747474);
 
--webkit-background-clip: text;
-color: transparent;
-height: auto;
+-webkit-background-clip: text; */
 }
 
 /*```````````````````````` SVGs Styling ````````````````````````````````````````````` */
+
+
 
 svg.qna {
   background-color: #ef4146;
