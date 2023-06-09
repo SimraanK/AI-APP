@@ -221,10 +221,7 @@ p.result-text {
   height: auto;
 
 
-    /* background: linear-gradient(1deg,
-  #60008d 20%, #ff02c0, #747474);
 
--webkit-background-clip: text; */
 }
 
 /*```````````````````````` SVGs Styling ````````````````````````````````````````````` */
@@ -509,6 +506,8 @@ svg.transltprglang {
   p.result-text {
    
     width: 22rem !important;
+    color: dimgrey;
+
   }
 
 
