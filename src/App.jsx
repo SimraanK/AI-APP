@@ -12,7 +12,7 @@ function App() {
   // const [count, setCount] = useState(0)
 
   const configuration = new Configuration({
-    apiKey: import.meta.env.VITE_OPEN_AI_KEY,
+    apiKey: import.meta.env.VITE_OPENAI_API_KEY,
   });
 
   const openai = new OpenAIApi(configuration);
