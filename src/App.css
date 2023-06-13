@@ -473,9 +473,34 @@ svg.transltprglang {
 }
 
 
+@media screen and (max-width > 430px  < 600px) {
+
+  div.grid-main {
+
+    display: grid;
+    grid-template-columns: auto;
+    gap: 20px;
+    margin-bottom: 5rem;
 
 
-@media screen and (max-width: 480px) {
+
+  }
+
+  p.heading-paragp {
+    font-size: min(15px);
+  }
+
+
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 430px) {
 
 
   #root {
