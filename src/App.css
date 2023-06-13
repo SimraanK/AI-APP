@@ -473,7 +473,7 @@ svg.transltprglang {
 }
 
 
-@media screen and (max-width > 430px  < 600px) {
+@media screen and (max-width: 600px) {
 
   div.grid-main {
 
@@ -485,6 +485,13 @@ svg.transltprglang {
 
 
   }
+
+  div.grid-child {
+    min-width: 28rem;    
+    margin: 0;
+  }
+
+
 
   p.heading-paragp {
     font-size: min(15px);
