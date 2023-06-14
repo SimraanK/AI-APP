@@ -522,7 +522,7 @@ svg.transltprglang {
   }
 
   div.grid-child {
-    width: clamp(18rem,19rem,18.7rem);
+    width: clamp(25rem,26rem,25.5rem);
     height: 100%;
     margin: 10px 0;
   }
