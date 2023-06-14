@@ -4,23 +4,23 @@ import React from "react";
 
 
 export default function Translation({ doStuff, setInput, result }) {
-
-
-  
   return (
 
 
     
     <div>
       <textarea placeholder="Start Writing "
-        className="text-area" 
-        id="myTextarea"    
-        cols={66} 
+        className="text-area"
+        cols={66}
         rows={5}
+
+        
+
         onClick={autoGrow}
-        onKeyDown={autoGrow}
-        onInput={(e) => setInput(e.target.value)}
-        onChange={(e) => setInput(e.target.value)}
+        onChange={(e) => {
+          autoGrow();
+          setInput(e.target.value);
+        }}
       ></textarea>
       <div className="btns">
         <button className="action-btn" onClick={doStuff}>
@@ -48,9 +48,6 @@ export default function Translation({ doStuff, setInput, result }) {
   function Refresh() {
     window.parent.location = window.parent.location.href;
 }
-
-
-
 
 
 
