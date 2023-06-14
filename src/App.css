@@ -37,7 +37,7 @@ p.heading-paragp {
   font-weight: 800;
   color: #808080;
   margin-bottom: 45px;
-  font-size: large;
+  font-size: 20px;
 
 }
 
@@ -497,7 +497,7 @@ svg.transltprglang {
 
 
   p.heading-paragp {
-    font-size: min(15px);
+    font-size: min(19px);
   }
 
 
@@ -540,7 +540,7 @@ svg.transltprglang {
   }
   
   p.heading-paragp {
-    font-size: 14px !important);
+    font-size: max(17px);
   }
 
   p.result-text {
