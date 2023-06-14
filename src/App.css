@@ -515,6 +515,10 @@ svg.transltprglang {
     transition: height 0.3s ease; /* Add smooth transition */
   }
 
+  .text-area {
+    height: auto !important;
+  }
+
 
 
 
@@ -555,6 +559,10 @@ svg.transltprglang {
     resize: none; /* Disable resizing */
     overflow-y: hidden; /* Hide vertical scrollbar */
     transition: height 0.3s ease; /* Add smooth transition */
+  }
+
+  .text-area {
+    height: auto !important;
   }
 
 
@@ -628,6 +636,10 @@ svg.transltprglang {
     resize: none; /* Disable resizing */
     overflow-y: hidden; /* Hide vertical scrollbar */
     transition: height 0.3s ease; /* Add smooth transition */
+  }
+
+  .text-area {
+    height: auto !important;
   }
 
 
