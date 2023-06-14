@@ -522,9 +522,9 @@ svg.transltprglang {
   }
 
   div.grid-child {
-    width: 20rem;
+    width: clamp(20rem, 24rem, 23rem);
     height: 100%;
-    margin: 30px 0px ;
+    margin: 10px 0;
   }
 
   textarea.text-area {
@@ -534,12 +534,24 @@ svg.transltprglang {
     margin-right: 5rem;
 
   }
+  
+    p.heading-paragp {
+    font-size: 16px);
+  }
 
   p.result-text {
    
     width: 22rem !important;
     color: dimgrey;
 
+  }
+  
+  h3 {
+    font-size: max(18px);
+  }
+  
+  div.option-paragp {
+    font-size: max(12px);
   }
 
 
