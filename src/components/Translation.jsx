@@ -1,32 +1,38 @@
-import React from "react";
-
-
-
+import React, { useState } from "react";
 
 export default function Translation({ doStuff, setInput, result }) {
+  const [isTextareaClicked, setTextareaClicked] = useState(false);
+
+  const handleTextareaClick = () => {
+    setTextareaClicked(true);
+  };
+
+  const handleTextareaInput = (e) => {
+    const textarea = e.target;
+    textarea.style.height = "auto";
+    textarea.style.height = `${textarea.scrollHeight}px`;
+    setInput(e.target.value);
+  };
+
+  function Refresh() {
+    window.parent.location = window.parent.location.href;
+  }
+
   return (
-
-
-    
     <div>
-      <textarea placeholder="Start Writing "
-        className="text-area"
+      <textarea
+        placeholder="Start Writing "
+        className={`text-area ${isTextareaClicked ? "up" : ""}`}
         cols={66}
         rows={5}
-
-        
-
-        onClick={autoGrow}
-        onChange={(e) => {
-          autoGrow();
-          setInput(e.target.value);
-        }}
+        onClick={handleTextareaClick}
+        onChange={handleTextareaInput}
       ></textarea>
       <div className="btns">
         <button className="action-btn" onClick={doStuff}>
           Get Answers from AI
         </button>
-        <button type="button" className="reload-btn" onClick={Refresh} >
+        <button type="button" className="reload-btn" onClick={Refresh}>
           Back
         </button>
       </div>
@@ -34,21 +40,5 @@ export default function Translation({ doStuff, setInput, result }) {
         <p className="result-text">{result.length > 0 ? result : ""}</p>
       </div>
     </div>
-    
   );
-
-  function autoGrow() {
-    const textarea = document.getElementById('myTextarea');
-    textarea.style.height = 'auto'; // Reset height to auto
-    textarea.style.height = `${textarea.scrollHeight}px`; // Set height to scrollHeight
-  }
-  
-
-  
-  function Refresh() {
-    window.parent.location = window.parent.location.href;
-}
-
-
-
 }
