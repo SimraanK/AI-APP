@@ -473,7 +473,7 @@ svg.transltprglang {
 }
 
 
-@media screen and (max-width: 600px) {
+@media (min-width: 431px) and (max-width: 599px) {
 
   div.grid-main {
 
