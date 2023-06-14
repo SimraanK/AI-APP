@@ -483,6 +483,7 @@ svg.transltprglang {
     grid-template-columns: auto;
     gap: 20px;
     margin-bottom: 5rem;
+    margin-left: 0rem;
 
 
 
@@ -519,6 +520,7 @@ svg.transltprglang {
    
   div.grid-main {
     display: block;
+    margin-left: 0rem;
     
 
   }
