@@ -522,7 +522,7 @@ svg.transltprglang {
   }
 
   div.grid-child {
-    width: clamp(20rem, 24rem, 23rem);
+    width: clamp(17rem, 18.5rem, 18rem);
     height: 100%;
     margin: 10px 0;
   }
@@ -535,8 +535,8 @@ svg.transltprglang {
 
   }
   
-    p.heading-paragp {
-    font-size: 16px);
+  p.heading-paragp {
+    font-size: 15px);
   }
 
   p.result-text {
