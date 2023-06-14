@@ -651,6 +651,21 @@ svg.transltprglang {
   }
 
 
+  .text-area {
+    resize: none;
+    overflow-y: hidden;
+    transition: height 0.3s ease;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .text-area {
+      height: auto !important;
+      max-height: none !important;
+    }
+  }
+  
+
+
 
 
 
