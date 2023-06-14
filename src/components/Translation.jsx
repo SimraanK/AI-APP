@@ -4,15 +4,22 @@ import React from "react";
 
 
 export default function Translation({ doStuff, setInput, result }) {
+
+
+  
   return (
 
 
     
     <div>
       <textarea placeholder="Start Writing "
-        className="text-area"
-        cols={66}
+        className="text-area" 
+        id="myTextarea"    
+        cols={66} 
         rows={5}
+        onClick={autoGrow}
+        onKeyDown={autoGrow}
+        onInput={(e) => setInput(e.target.value)}
         onChange={(e) => setInput(e.target.value)}
       ></textarea>
       <div className="btns">
@@ -30,10 +37,20 @@ export default function Translation({ doStuff, setInput, result }) {
     
   );
 
+  function autoGrow() {
+    const textarea = document.getElementById('myTextarea');
+    textarea.style.height = 'auto'; // Reset height to auto
+    textarea.style.height = `${textarea.scrollHeight}px`; // Set height to scrollHeight
+  }
+  
+
   
   function Refresh() {
     window.parent.location = window.parent.location.href;
 }
+
+
+
 
 
 

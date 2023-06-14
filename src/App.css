@@ -145,6 +145,13 @@ textarea.text-area {
   display: none;
 }
 
+.text-area {
+  resize: none; /* Disable resizing */
+  overflow-y: hidden; /* Hide vertical scrollbar */
+  transition: height 0.3s ease; /* Add smooth transition */
+}
+
+
 
 div.btns {
   display: flex;;
@@ -502,11 +509,56 @@ svg.transltprglang {
 
 
 
+  .text-area {
+    resize: none; /* Disable resizing */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    transition: height 0.3s ease; /* Add smooth transition */
+  }
+
+
+
 
 
 
 }
 
+@media screen and (max-width: 480px) {
+
+  textarea.text-area {
+    max-height: 30px;
+    height: 25px;
+    width: 20rem;
+    margin-right: 5rem;
+
+  }
+
+  div.btns {
+    width: 20rem;
+
+  
+  }
+
+  button.action-btn {
+    width: 203px;
+  }
+
+
+  p.result-text {
+   
+    width: 22rem !important;
+    color: dimgrey;
+
+  }
+
+
+  .text-area {
+    resize: none; /* Disable resizing */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    transition: height 0.3s ease; /* Add smooth transition */
+  }
+
+
+}
 
 
 
@@ -569,6 +621,20 @@ svg.transltprglang {
   button.action-btn {
     width: 203px;
   }
+
+
+
+  .text-area {
+    resize: none; /* Disable resizing */
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    transition: height 0.3s ease; /* Add smooth transition */
+  }
+
+
+
+
+
+
 
   }
 
